@@ -1,0 +1,92 @@
+@relation 'ASSIGNMENT 2'
+
+@attribute 'Starts with a vowel or consonant' {V,C}
+@attribute first_letter {A,K,F,O,L,D,B,I,H,N,S,G,U,M,E,Z,Q}
+@attribute 'Character Repetition' numeric
+@attribute 'Last letter' {a,b,m,l,r,d,h,n,f,s,j,t,k}
+@attribute 'Vowel Count' numeric
+@attribute 'Consonant Count' numeric
+@attribute name_length numeric
+@attribute output {-,+}
+
+@data
+V,A,0,a,3,3,5,-
+C,K,1,b,2,4,6,+
+C,F,1,m,3,3,6,+
+C,F,1,l,3,3,6,+
+V,A,1,m,2,2,4,-
+V,O,0,r,2,2,4,-
+C,L,1,a,2,3,5,+
+C,D,1,d,2,3,5,+
+C,B,0,r,2,4,6,+
+V,A,1,h,4,3,7,-
+V,A,0,m,2,2,4,-
+V,I,1,l,3,3,6,-
+C,H,1,n,3,4,7,+
+C,B,0,a,2,4,6,+
+C,N,0,a,2,2,4,+
+V,I,0,n,2,2,4,-
+C,H,1,a,2,2,4,+
+C,N,1,a,4,2,6,+
+C,F,1,d,3,3,6,+
+C,S,0,r,2,4,6,-
+C,G,1,a,3,4,7,-
+C,B,1,n,3,6,9,+
+V,A,1,a,4,2,6,-
+C,S,1,a,3,4,7,-
+V,A,1,a,4,2,6,+
+V,U,0,d,3,2,5,-
+C,H,0,a,3,3,5,+
+V,A,0,f,2,2,4,-
+C,S,1,a,2,2,4,+
+C,F,0,s,2,3,5,+
+V,A,1,r,3,2,5,+
+C,F,1,a,3,3,6,+
+C,S,1,d,2,4,6,-
+C,H,0,a,2,2,4,+
+C,M,1,a,3,4,7,+
+V,E,0,a,3,1,4,+
+C,N,1,a,3,2,5,+
+V,A,1,a,2,2,4,-
+C,S,0,f,2,4,6,-
+V,A,1,a,3,2,5,-
+V,U,0,r,3,2,5,-
+V,A,1,d,2,3,5,-
+V,I,0,n,2,3,5,-
+C,S,0,b,3,3,6,-
+V,A,1,l,2,2,4,-
+C,M,0,d,2,3,5,+
+C,F,0,n,2,4,6,+
+V,A,1,a,3,2,5,-
+C,M,1,b,3,3,6,+
+C,K,1,h,3,5,8,-
+V,A,1,r,3,2,5,-
+V,A,1,j,3,2,5,-
+C,H,1,b,2,3,5,+
+V,U,0,a,2,2,4,-
+V,A,1,a,3,1,4,+
+V,A,1,a,3,1,4,-
+V,A,1,b,3,2,5,-
+C,N,1,r,2,2,4,+
+V,I,1,t,2,3,5,-
+C,N,1,a,3,3,6,+
+C,F,1,n,2,4,6,+
+V,A,1,a,4,2,6,+
+C,B,0,n,2,4,6,+
+C,M,1,a,4,3,7,+
+C,M,0,a,3,4,6,+
+C,Z,1,t,3,3,6,+
+C,M,1,a,4,4,8,+
+C,S,1,a,4,3,7,+
+V,I,1,a,3,2,5,-
+C,F,0,s,3,4,7,+
+C,K,1,a,3,4,7,-
+C,L,0,n,2,4,6,+
+V,A,1,s,2,3,5,-
+C,Q,1,r,2,3,5,+
+V,A,1,r,3,2,5,-
+V,U,0,h,2,3,5,-
+C,F,1,k,2,3,5,+
+V,A,1,m,4,5,9,-
+V,A,1,d,2,4,6,-
+V,A,1,a,2,2,4,-
